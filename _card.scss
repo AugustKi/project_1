@@ -1,0 +1,80 @@
+.cards{
+    background-color: #1D2F30;
+    size: 1000px;
+}
+.card-image{
+    display: flex;
+    justify-content: center;
+    
+}
+.card-title{
+    display: flex;
+    justify-content: left;
+    color: $w;
+    font-family: "Cormorant", serif;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0px 20px;
+}
+.card-desc{
+    display: flex;
+    justify-content: center;
+    color: #899D9D;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0px 20px;
+}
+.card{
+    width: 255px;
+    height: 493px;
+    margin-right: 30px;
+    padding-top: 50px;
+}
+.cards-holder{
+    display: flex;
+    justify-content: center;
+}
+.card-down{
+    border: 1px solid #0B1919;
+    width: 255px;
+    height: 480px;
+    position: relative;
+}
+.card-knopka{
+    border: 1px solid $l;
+    padding: 10px 25px;
+    color: $l;
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+.card-knp{
+    position: absolute;
+ 
+    padding-left: 15px;
+    bottom: 30px;
+}
+.strelki{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+.strelka-o{
+    margin-right: 30px;
+    padding-top: 7px;
+}
+.strelka-t{
+    margin-left: 30px;
+    padding-top: 7px;
+}
+.cifri{
+    font-family: "Cormorant", serif;
+    font-size: 24px;
+    font-weight: 700;
+
+    color: $w;
+}

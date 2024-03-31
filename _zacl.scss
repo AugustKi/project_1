@@ -1,0 +1,60 @@
+%shrifts{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+}
+.zacluchenie{
+    background-image: url(images/fon-z.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 463px
+}
+.zacl{
+    margin-left: 115px;
+}
+.title-zacl{
+    color: $w;
+    font-family: "Cormorant", serif;
+    font-size: 48px;
+    font-weight: 700;
+    font-style: italic;
+    padding-top: 40px;
+}
+.text-dz{
+    color: $w;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    width: 825px;
+    height: 72px;
+    padding-top: 15px;
+}
+.knp-zcl{
+    text-decoration: none;
+    color: #0B1919;
+    @extend %shrifts;
+    padding: 35px 0px 50px 0px;
+}
+.name-box{
+    padding-top: 15px;
+}
+.email{
+    padding-top: 15px;
+}
+.name-box input{
+    width: 350px;
+    height: 45px;
+}
+.email input{
+    width: 350px;
+    height: 45px;
+}
+button{
+    padding: 20px 50px;
+    outline: none;
+    border: none;
+    background-color: $l;
+    cursor: pointer;
+    color: #0B1919;
+    @extend %shrifts;
+}

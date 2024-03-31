@@ -1,0 +1,342 @@
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  margin: 0px 166px;
+}
+
+.header {
+  background-color: #1D2F30;
+  height: 60px;
+}
+
+.header-line {
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.nav-item {
+  color: white;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  margin-right: 86px;
+}
+
+.nav-item:hover {
+  color: #BAE249;
+}
+
+.header-down {
+  background-image: url(images/fon.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header-title {
+  font-family: "Cormorant", serif;
+  font-size: 60px;
+  font-weight: 700;
+  color: white;
+  padding-top: 175px;
+  padding-left: 165px;
+}
+
+.header-text {
+  color: white;
+  padding-top: 16px;
+  padding-left: 165px;
+  width: 635px;
+  height: 72px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.slovo-item {
+  text-decoration: none;
+  color: #BAE249;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.knopka-one {
+  display: flex;
+  padding-top: 18px;
+  padding-left: 165px;
+  align-items: center;
+}
+
+.strelka-one {
+  padding-left: 8px;
+  padding-top: 7px;
+}
+
+.cards {
+  background-color: #1D2F30;
+  size: 1000px;
+}
+
+.card-image {
+  display: flex;
+  justify-content: center;
+}
+
+.card-title {
+  display: flex;
+  justify-content: left;
+  color: white;
+  font-family: "Cormorant", serif;
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 0px 20px;
+}
+
+.card-desc {
+  display: flex;
+  justify-content: center;
+  color: #899D9D;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 0px 20px;
+}
+
+.card {
+  width: 255px;
+  height: 493px;
+  margin-right: 30px;
+  padding-top: 50px;
+}
+
+.cards-holder {
+  display: flex;
+  justify-content: center;
+}
+
+.card-down {
+  border: 1px solid #0B1919;
+  width: 255px;
+  height: 480px;
+  position: relative;
+}
+
+.card-knopka {
+  border: 1px solid #BAE249;
+  padding: 10px 25px;
+  color: #BAE249;
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.card-knp {
+  position: absolute;
+  padding-left: 15px;
+  bottom: 30px;
+}
+
+.strelki {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.strelka-o {
+  margin-right: 30px;
+  padding-top: 7px;
+}
+
+.strelka-t {
+  margin-left: 30px;
+  padding-top: 7px;
+}
+
+.cifri {
+  font-family: "Cormorant", serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: white;
+}
+
+.text-title, .card-name {
+  font-family: "Cormorant", serif;
+  font-weight: 700;
+}
+
+.card-text {
+  background-color: #1D2F30;
+}
+
+.c-t {
+  display: flex;
+  justify-content: center;
+  padding: 0px 0px 30px 0px;
+}
+
+.card-photo {
+  width: 825px;
+  height: 493px;
+  margin-right: 50px;
+}
+
+.text {
+  background-color: #BAE249;
+  width: 255px;
+  height: 493px;
+}
+
+.card-name {
+  color: white;
+  font-size: 48px;
+  font-style: italic;
+  padding: 40px 170px;
+  padding-top: 70px;
+}
+
+.text-title {
+  font-size: 24px;
+  color: #1D2F30;
+  padding: 0px 15px;
+  padding-top: 25px;
+}
+
+.text-downone {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #506829;
+  padding: 15px 15px;
+  width: 223px;
+}
+
+.text-downtwo {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #506829;
+  padding: 15px 15px;
+  width: 223px;
+}
+
+.knopka-black {
+  display: flex;
+  padding-top: 65px;
+  padding-left: 15px;
+}
+
+.knp-bl {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #0B1919;
+}
+
+.strelka-black {
+  padding-left: 15px;
+  padding-top: 4px;
+}
+
+button, .knp-zcl {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.zacluchenie {
+  background-image: url(images/fon-z.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 463px;
+}
+
+.zacl {
+  margin-left: 115px;
+}
+
+.title-zacl {
+  color: white;
+  font-family: "Cormorant", serif;
+  font-size: 48px;
+  font-weight: 700;
+  font-style: italic;
+  padding-top: 40px;
+}
+
+.text-dz {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  width: 825px;
+  height: 72px;
+  padding-top: 15px;
+}
+
+.knp-zcl {
+  text-decoration: none;
+  color: #0B1919;
+  padding: 35px 0px 50px 0px;
+}
+
+.name-box {
+  padding-top: 15px;
+}
+
+.email {
+  padding-top: 15px;
+}
+
+.name-box input {
+  width: 350px;
+  height: 45px;
+}
+
+.email input {
+  width: 350px;
+  height: 45px;
+}
+
+button {
+  padding: 20px 50px;
+  outline: none;
+  border: none;
+  background-color: #BAE249;
+  cursor: pointer;
+  color: #0B1919;
+}
+
+.seti {
+  background-color: #0B1919;
+}
+
+.ikonki {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 0px;
+}
+
+.otstup {
+  padding: 0px 10px;
+}
+
+.poslednee {
+  background-color: #1D2F30;
+}
+
+.slova {
+  display: flex;
+  justify-content: center;
+  padding: 6px 0px;
+}/*# sourceMappingURL=maim.css.map */

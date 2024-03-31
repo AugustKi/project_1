@@ -1,0 +1,29 @@
+$w: white;
+$l: #BAE249;
+body{
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+.container{
+    margin: 0px 166px;
+}
+.header{
+    background-color: #1D2F30;
+    height: 60px;
+}
+.header-line{
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav-item{
+    color: $w;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    margin-right: 86px;
+}
+.nav-item:hover {
+    color: $l;
+}

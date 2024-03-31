@@ -1,0 +1,42 @@
+.header-down{
+    background-image: url(images/fon.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header-title{
+    font-family: "Cormorant", serif;
+    font-size: 60px;
+    font-weight: 700;
+    color: $w;
+
+    padding-top: 175px;
+    padding-left: 165px;
+}
+.header-text{
+    color: $w;
+    padding-top: 16px;
+    padding-left: 165px;
+    width: 635px;
+    height: 72px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+.slovo-item{
+    text-decoration: none;
+    color: $l;
+    font-family: "Open Sans", sans-serif;
+    font-weight:700;
+    font-size: 16px;
+}
+.knopka-one{
+    display: flex;
+    padding-top: 18px;
+    padding-left: 165px;
+    align-items: center;
+}
+.strelka-one{
+    padding-left: 8px;
+    padding-top: 7px;
+}
